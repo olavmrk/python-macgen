@@ -1,5 +1,5 @@
-mac_gen
-=======
+macgen
+======
 
 A trivial Python script that generates a random MAC address.
 
@@ -15,7 +15,7 @@ Usage
 Simply invoke the script with no arguments:
 
 ```
-$ mac_gen.py
+$ macgen.py
 c6:70:06:fc:5a:61
 ```
 
@@ -26,27 +26,27 @@ The script also takes an optional parameter `--separator`, which allows you to s
 `colon`:
 
 ```
-$ ./mac_gen.py --separator=colon
+$ ./macgen.py --separator=colon
 ba:d2:6a:dc:43:52
 ```
 
 `dash`:
 
 ```
-$ ./mac_gen.py --separator=dash
+$ ./macgen.py --separator=dash
 be-d0-8e-cf-15-e9
 ````
 
 `none`:
 
 ```
-$ ./mac_gen.py --separator=none
+$ ./macgen.py --separator=none
 96f2b323b2f1
 ```
 
 `space`:
 
 ```
-$ ./mac_gen.py --separator=space
+$ ./macgen.py --separator=space
 76 68 ff 31 0c 86
 ```
