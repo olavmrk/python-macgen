@@ -9,6 +9,8 @@ About
 This script generates a random MAC address.
 The generated MAC address will have the "locally administered" bit set and the multicast bit cleared.
 
+A web version of the script is available at: https://olavmrk.github.io/html-macgen/
+
 Usage
 -----
 
